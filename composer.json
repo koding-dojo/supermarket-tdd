@@ -1,0 +1,17 @@
+{
+    "name": "supermarket-tdd",
+    "description": "Supermarket Kata in TDD style",
+    "autoload": {
+        "psr-4": {
+            "Supermarket\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.2"
+    }
+}
